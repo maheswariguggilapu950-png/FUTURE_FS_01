@@ -43,5 +43,5 @@ An AI system that detects fake financial news and provides reliable investment s
 A web-based temple management system to manage temple activities, donations, and events.
 
 ## Contact
-Email: your-email@gmail.com  
-GitHub: https://github.com/yourusername
+Email: maheswariguggilapu950gmail.com  
+Phone number:7032440387
