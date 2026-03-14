@@ -1,9 +1,17 @@
-document.getElementById("contactForm")
-.addEventListener("submit",function(e){
+document.getElementById("contactForm").addEventListener("submit", function(event){
 
-e.preventDefault()
+event.preventDefault()
 
-alert("Thank you! Your message has been sent.")
+const name=document.getElementById("name").value
+const email=document.getElementById("email").value
+const message=document.getElementById("message").value
+
+if(name===""||email===""||message===""){
+alert("Please fill all fields")
+return
+}
+
+document.getElementById("successMessage").innerText="Message sent successfully!"
 
 this.reset()
 
